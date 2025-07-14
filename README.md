@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Yash's Developer Portfolio
 
-## Getting Started
+Welcome to my personal developer portfolio built with **Next.js 15**, **Tailwind CSS**, and **Aceternity UI**. This portfolio showcases my projects, blogs, contact form, and even includes an interactive chatbot powered by Gemini API.
 
-First, run the development server:
+## 📸 Live Demo
+
+🔗 [yash-portfolio.vercel.app](https://yash-portfolio.vercel.app)
+
+---
+
+## 🔧 Tech Stack
+
+- **Framework:** [Next.js 15 (App Router)](https://nextjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **UI:** [Aceternity UI](https://ui.aceternity.com/)
+- **TypeScript:** For strict typing and scalability
+- **Email:** Nodemailer + API route
+- **AI Chatbot:** Gemini API (via `/api/chat` route)
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 🧠 Features
+
+- ⚡ Hero Section with gradient text and CTA buttons
+- 💼 Projects Showcase Carousel
+- ✍️ Dynamic Blog Cards from local data
+- 📬 Contact Form with email functionality
+- 🤖 AI-powered chatbot modal (Gemini 2.5 Flash)
+- 🌙 Dark mode supported
+- 📱 Fully responsive layout
+- 🔗 Footer with social links and internal navigation
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src/
+├── app/               # Pages and routing
+│   ├── contact/
+│   ├── projects/
+│   └── api/           # API routes (chat, send-email)
+├── components/        # Reusable components (Hero, Footer, etc.)
+│   ├── ui/            # Custom UI components (modals, buttons, etc.)
+├── lib/               # Utility functions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To run this project on your local machine:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/yash766786/yash-portfolio.git
+cd yash-portfolio
+npm install
+npm run dev
+```
 
-## Learn More
+Then, open your browser and navigate to:
+```
+http://localhost:3000
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
+ Make sure to set up your .env.local file before starting the server.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
