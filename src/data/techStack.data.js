@@ -60,10 +60,6 @@ export const techStack = [
     icon: <SiExpress className="w-8 h-8 text-gray-500" />,
   },
   {
-    name: "Tailwind CSS",
-    icon: <SiTailwindcss className="w-8 h-8 text-teal-400" />,
-  },
-  {
     name: "MongoDB",
     icon: <SiMongodb className="w-8 h-8 text-green-700" />,
   },
@@ -78,6 +74,10 @@ export const techStack = [
   {
     name: "Cloudinary",
     icon: <SiCloudinary className="w-8 h-8 text-blue-300" />,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: <SiTailwindcss className="w-8 h-8 text-teal-400" />,
   },
   {
     name: "Socket.IO",

@@ -10,12 +10,12 @@ const words = `A Full-Stack Developer & DSA Enthusiast building powerful web app
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-auto sm:h-[42rem] md:h-[42rem] flex items-center justify-center overflow-hidden py-0 px-4 sm:px-8 md:px-12 xl:px-20">
-      <BackgroundLines className="flex flex-col items-center justify-center w-full min-h-[100vh] px-12 py-12">
-        <div className="max-w-7xl w-full flex flex-col md:flex-row items-center md:items-start justify-between gap-12">
+    <section className="relative w-full h-auto sm:h-[42rem] md:h-[42rem] flex items-center justify-center overflow-hidden py-2 md:py-0 px-4 sm:px-8 md:px-12 xl:px-20">
+      <BackgroundLines className="flex flex-col items-center justify-center w-full min-h-[100vh] px-12 py-2 sm:py-16">
+        <div className="max-w-7xl w-full flex flex-col md:flex-row items-center md:items-start justify-between sm:gap-12 gap-0">
           {/* LEFT: Text content */}
           <div className="flex-1 text-center md:text-left">
-            <p className="text-sm sm:text-base  mb-2 dark:from-white dark:to-gray-200">
+            <p className="text-sm sm:text-base mb-2 dark:from-white dark:to-gray-200">
               Hi, I&apos;m
             </p>
 
